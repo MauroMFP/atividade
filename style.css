@@ -65,3 +65,21 @@ main button{
     text-align: center;
     color: aliceblue;
 }
+main:first-of-type h4:first-of-type{
+    color:orangered
+}
+main h4{
+    color: blue;
+}
+main:last-child h4:last-of-type{
+    color: green;
+}
+main:first-of-type button:first-of-type{
+    background-color:orangered
+}
+main button{
+    background-color: blue;
+}
+main:last-child button:last-of-type{
+    background-color: green;
+}
